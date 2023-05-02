@@ -1,0 +1,219 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name = "viewport" content = "width=device-width,initial-scale=1"/>
+        <meta name = "description" content = "Free HTML tutorial">
+        <meta name = "author" content = "SynchCyberDescron"> 
+        <meta name = "keywords" content = "HTML,tutorial,beginners">
+        <title>HTML Basics</title>
+    </head>
+
+    <body style = "background-color: rgb(158, 193, 223);" >
+        !DOCTYPE HTML -> This declaration lets webpage know that this is an HTML5 document.<br>
+        html tags -> The html element represents the root of an HTML document.<br>
+        lang = en -> The lang attribute helps define the language of an element.<br>
+        head -> The head tag provides machine-readable information (metadata) about the document,like it title,scripts and stylesheets.<br>
+        meta -> The meta element represents metadata that cannot be represented by other HTML meta-related elements, like base ,link,script or title.<br>
+        charset -> This attribute declares the page's character encoding.
+        name -> This attribute defines the name of a document-level metadata.
+        viewport -> Background.The browser's viewport is the area of the window in which web content can be seen.This is often not the same size as rendered page, in which case the browser provides scroolbars for the user to scrool around and access all the content.<br>
+        content -> This attribute contains the value for the http-equiv or name attribute, depending on which one is used.<br>
+        width -> Controls the size of viewport.It can be specific number of pixels like width = 400 or to the special value device-width.<br>
+        height -> Controls the size of the viewport. It can be set to a specific number of pixels like height=400 or to the special value device-height.<br>
+        initial-scale -> Controls the zoom level when the page is first loaded. Minimum: 0.1. Maximum: 10. Default: 1. Negative values: ignored.<br>
+        title -> Represents the documents title or name.
+        <hr>
+        <h1>First header</h1>
+        <h2>Second header</h2>
+        <h3>Third header</h3>
+        <h4>Fourth header</h4>
+        <h5>Fifth header</h5>
+        <h6>Sixth header</h6>
+        h 1,2,3,4,5,6 -> Represents a section of heading
+        <p>This is a paragraph</p>
+        p -> Represents a paragraph.<br>
+        br -> Adds a line break.<br>
+        <hr>
+        hr -> Divides a section horizontally.<br>
+        <!-- This is a comment-->
+
+        <a href="https://www.google.com" target =_blank title="This takes you to Google">Google</a><br>
+        <a href="#">This is a small trick to take the user to top of the current page</a><br>
+        a -> If the element a has the href attribute, then it represents a hyperlink(a hypertext anchor) labeled by its contents.<br>
+        href -> Contains a URL or a URL fragment that hyperlink points to.<br>
+        target -> Specifies where to display the linked URL.<br>
+        
+        <img src="images/maximus.webp" alt="An image from the movie Gladiator" height="400"width=600 title = "Are You Not Entertained?"><br>
+        img -> An img element represents an image.<br>
+        src -> Mandatory to img element used for determining the source of the image.<br>
+        alt ->  This attribute defines an alternative text description for the image.<br>
+        <a href="https://www.imdb.com/title/tt0172495/">
+            <img src="images/maximus2.webp" alt="An image from the movie Gladiator" height="400"width=600 title = "Click to go to IMDb page">
+        </a>
+        <hr>
+        <audio controls src="https://youtu.be/ZjSL28MSgoo">The Gladiator Soundrack can't play because it's format is wrong eg not mp3</audio><br>
+        <iframe src="https://www.youtube.com/embed/xbHPTPUpQ1I">The Gladiator Soundrack</iframe>
+        <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0"></iframe><br>
+        audio -> An audio element represents a sound or audio stream.<br>
+        controls -> The browser will offer controls to allow the user to control audio playback including volume,pause,resume.<br>
+        iframe -> The iframe element represents a nested browsing context.<br>
+        <p>This is a <b>bold</b> statement</p>
+        b -> Makes line bold between the b tags.
+        <p>This is a <i>italic</i> statement</p>
+        i -> Makes line italic between the i tags.
+        <p>This is a <big>Big</big> text</p>
+        big -> Makes line big between big tags.
+        <p>This is a <small>small</small> text</p>
+        small -> Makes line small between small tags.
+        <p>This is a <sub>subscript</sub> text</p>
+        sub -> Makes line subscript between sub tags.
+        <p>This is a <sup>superscript</sup> text</p>
+        sup -> Makes line superscript between sup tags.
+        <p>This is a <ins>inserted</ins> text</p>
+        ins -> Makes line inserted between ins tags.
+        <p>This is a <del>deleted</del> text</p>
+        del -> Makes line deleted between del tags.
+        <p>This is a <mark>marked</mark> text</p>
+        mark -> Makes line marked between mark tags.
+        <h2>Unordered List</h2>
+        <ul>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Watermelon</li>
+        </ul>
+        ul -> Unordered List <br>
+        li -> List item <br>
+        <h2>Ordered List</h2>
+        <ol type = "I">
+            <li>First</li>
+            <ul>
+                <p>Example of list of a list</p>
+                <li>First</li>
+                <li>Second</li>
+                <li>Third</li>
+            </ul>
+            <li>Second</li>
+            <li>Third</li>
+        </ol>
+        ol -> Ordered List
+        <h2>Description List</h2>
+        <dl>
+            <dt style="color: green;">HTML</dt>
+            <dd>First step to become a web developer</dd>
+            <dt style="color: red;">CSS</dt>
+            <dd>Almost there</dd>
+            <dt style="color: blue;">JS</dt>
+            <dd>Congratz now you are a web developer</dd>
+        </dl>
+        dl -> Description List <br>
+        dt -> Description Term <br>
+        dd -> Description Definition <br>
+
+        <h2>Work Hours</h2>
+        <table bgcolor = "black" height = 100px width = 700px>
+            <tr bgcolor="teal" align="center">
+                <th bgcolor="Green" width = 100>Days</th>
+                <th width = 100>Sunday</th>
+                <th width = 100>Monday</th>
+                <th width = 100>Tuesday</th>
+                <th width = 100>Wednesday</th>
+                <th width = 100>Thursday</th>
+                <th width = 100>Friday</th>
+                <th width = 100>Saturday</th>
+            </tr>
+            <tr bgcolor="grey" align="center">
+            <td bgcolor="green">Work Hours</td>
+            <td bgcolor = "red">Closed</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            </tr>
+        </table> <br>
+        table -> Creates a table <br>
+        tr -> Represents row of cells in a table <br>
+        th -> Represents table header <br>
+        td -> Represents data cell <br>
+        bgcolor -> Background color <br>
+        align -> Align each cell on a row to a spesific position eg center,left,right <br>
+
+        <p><span style="color:white">The grind never ends.</span>Don't give up. <span style="color: brown;">Consistency is the key to success.</span></p> 
+        span -> Adds markup to text or a portion of a document. <br>
+
+        <div style="background-color: red; text-align: center;"  >
+            <h3 style="color: azure;">Keep Going</h3>
+            <h5 style="color: blueviolet;">Keep Going</h5>
+            <h2 style="color: darkcyan;">Keep Going</h2>
+            <h1>Keep Going</h1>
+        </div>
+        
+        <button onclick="doSometing()" style="background-color: black;color: blue; border-radius: 5px;">Click Me!</button>
+        <p id="Test">Hello</p>
+        <script>
+            function doSometing(){
+                document.getElementById("Test").innerHTML = "GoodBye";
+            }
+        </script>
+
+        <br>
+
+        <form action="action_page.php" method ="post">
+        <div>
+            <label for="fname">first name</label>
+            <input type = "text" id="fname" name="fname" placeholder="Enter your first name" required>
+        </div>
+        <br>
+        <div>
+            <label for="lname">last name</label>
+            <input type = "text" id="lname" name="lname" placeholder="Enter your last name" required>
+        </div>
+        <br>
+        <div>
+            <label for="pass">password</label>
+            <input type = "password" id="pass" name="pass" placeholder="Enter your password" maxlength="12" required>
+        </div>
+        <br>
+        <div>
+            <label for="email">email</label>
+            <input type = "email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+        <br>
+        <div>
+            <label for="phone">phone number</label>
+            <input type = "tel" id="phone" name="phone" placeholder="Enter your telephone" required>
+        </div>
+        <br>
+        <div>
+            <label for="bdate">birthdate:</label>
+            <input type="date" id ="bdate" name = "bdate">
+            
+        </div>
+        <br>
+        <div>
+            <input type = "reset">
+        </div>
+        <br>
+        <div>
+            <input type ="submit">
+        </div>
+        </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>
