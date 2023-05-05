@@ -1,0 +1,53 @@
+#increase{
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(37, 39, 41);
+    background-color: aliceblue;
+    margin: 5px;
+    padding: 5px;
+    width: 150px;
+}
+#decrease{
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(37, 39, 41);
+    background-color: aliceblue;
+    margin: 5px;
+    padding: 5px;
+    width: 150px;
+}
+#reset{
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(37, 39, 41);
+    background-color: aliceblue;
+    margin: 5px;
+    padding: 5px;
+    width: 150px;
+}
+#count{
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(37, 39, 41);
+    font-size:xx-large;
+    margin-left: 230px;
+}
+#roll{
+    font-size:xx-large;
+    font-size: 50px;
+}
+#roll1{
+    font-size: xx-large;
+    width: 150px;
+    padding: 10px;
+    border: solid 5px;
+    border-color: blueviolet;
+    border-radius: 25px;
+    background-color: aqua;
+
+    
+}
+
+
+
+
