@@ -33,3 +33,31 @@ document.getElementById("roll1").onclick = function(){
 
 }
 
+document.getElementById("btn5").onclick = function(){
+
+    let visa = document.getElementById("visa");
+    let mastercard = document.getElementById("mastercard");
+    let paypal = document.getElementById("paypal");
+
+    if(visa.checked){
+        console.log("You are paying with Visa");
+    }else if(mastercard.checked){
+        console.log("You are paying with MasterCard");
+    }else if(paypal.checked){
+        console.log("You are paying with Paypal");
+    }else{
+        console.log("Please enter valid payment method");
+    }
+}
+var name = "Tunc";
+var age1 = 24;
+function startProgram(){
+    
+    happyBirthday();
+}
+
+function happyBirthday(){
+    console.log("Happy birthday to you "+name+".You are now "+age1);
+}
+startProgram();
+  
