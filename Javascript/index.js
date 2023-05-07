@@ -49,7 +49,7 @@ document.getElementById("btn5").onclick = function(){
         console.log("Please enter valid payment method");
     }
 }
-var name = "Tunc";
+var name2 = "Tunc";
 var age1 = 24;
 function startProgram(){
     
@@ -57,7 +57,9 @@ function startProgram(){
 }
 
 function happyBirthday(){
-    console.log("Happy birthday to you "+name+".You are now "+age1);
+    console.log("Happy birthday to you "+name2+".You are now "+age1);
 }
 startProgram();
+
+
   

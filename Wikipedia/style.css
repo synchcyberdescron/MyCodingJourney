@@ -1,0 +1,150 @@
+div
+{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(4, 3, 3);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    height: 140px;
+    width:98%;
+}
+#dropdownicon{
+    text-align: center;
+    height: 30px;
+    padding-left: 40px;
+    padding-bottom: 70px;
+    position: relative;
+}
+#worldicon{
+    height: 100px;
+    padding-bottom: 70px;
+    position: relative;
+}
+#wikipedia{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    position: absolute;
+    padding-bottom: 80px;
+    padding-left: 190px;
+    text-align: center;
+    
+}
+#thefreeencyclopedia{
+    font-size: small;
+    font-family:'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+    position:absolute;
+    padding-left: 200px;
+}
+#searchbox{
+    padding-left: 30px;
+    margin-bottom: 50px;
+    height: 25px;
+    margin-left: 200px;
+    width: 700px;
+    
+}
+#searchicon{
+    height: 20px;
+    position: absolute;
+    padding-left: 205px;
+    padding-bottom: 50px;
+}
+#searchbutton{
+    height: 31px;
+    margin-bottom: 50px;
+    width: 100px;
+    border: 1px solid;
+}
+#Createaccount{
+    color:blue;
+    width: 180px;
+    margin-bottom: 45px;
+    padding-left: 200px;
+    font-size:x-large;
+}
+#Login{
+    color: blue;
+    width: 180px;
+    margin-bottom: 45px;
+    font-size:x-large ;
+}
+.div1{
+    color: darkblue;
+    height: 0px;
+    font-size: x-large;
+    margin-left: 250px;
+}
+#hrid{
+    font-size: x-large;
+    background-color: black;
+    border: 2px solid;
+    width: 1400px;
+}
+.div2{
+    border: 2px solid;
+    width: 1380px;
+    margin: auto;
+}
+.divUpper{
+    height: 900px;
+    width: 1380px;
+    border: 2px solid;
+    margin: auto;
+    margin-top: 5px;
+    background-color:white;
+}
+.divLeft{
+    height: 900px;
+    width: 1600px;
+    border: 2px solid;
+    border-color:rgb(220, 255, 220) ;
+    margin: 0px;
+    padding: 0px;
+    margin-right: 5px;
+    background-color: rgb(220, 255, 220);
+}
+.divRight{
+    height: 900px;
+    width: 1600px;
+    border: 2px solid;
+    padding: 0px;
+    border-color:rgb(182, 244, 255) ;
+    background-color: rgb(182, 244, 255);
+}
+.header1{
+    border: 2px solid;
+    border-color: green;
+    background-color: green;
+    margin-bottom:830px;
+    height: 50px;
+    position: absolute;
+    padding-right: 0px;
+    width: 670px;
+}
+#firstimage{
+    height: 250px;
+    width: 650px;
+    margin-right: 500px;
+    margin-top: 350px;
+    position: absolute;
+}
+.header2{
+    border: 2px solid;
+    border-color:rgb(4, 34, 229);
+    background-color:rgb(4, 34, 229);
+    height: 50px;
+    margin-bottom: 830px;
+    width: 670px;
+    position: absolute;
+    padding-right: 0px;
+}
+#secondimage{
+    margin-top: 350px;
+    width: 650px;
+    height: 250px;
+    position: absolute;
+    padding: 0px;
+
+}
+
