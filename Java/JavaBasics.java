@@ -1,4 +1,5 @@
 package Java;
+import java.util.ArrayList;
 import java.util.Scanner;
 import javax.swing.*;
 class JavaBasics{
@@ -12,6 +13,7 @@ class JavaBasics{
         String username = "";
         String password = "";
         
+        /*
         do{
             System.out.println("Enter username:");
             username = scanner.nextLine();
@@ -24,6 +26,37 @@ class JavaBasics{
             }
         }while(!uName.equals(username) || !pWord.equals(password));
         
-    }
+        for(int i=0;i<3;i++){
+            for(int j=0;j<=i;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        for(int i=3;i>0;i--){
+            for(int j=3;j<=i;j--){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        
 
+        ArrayList<String> food = new ArrayList<String>();
+
+        food.add("Hamburger");
+        food.add("Pizza");
+        food.add("Hotdog");
+        food.add("Hello");
+        food.set(3, "Sushi");
+
+        for (String string : food) {
+            System.out.println(string);
+        }
+        */
+
+        hello();
+
+}
+    static void hello(){
+        System.out.println("Hello");
+    }
 }
